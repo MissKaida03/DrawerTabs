@@ -1,0 +1,83 @@
+import { StyleSheet } from 'react-native';
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    padding: 20,
+    backgroundColor: 'rgba(255, 255, 255, 0.9)', 
+    borderRadius: 10, 
+  },
+  scrollContainer: {
+    flexGrow: 1,
+    paddingBottom: 30, 
+  },
+  header: {
+    fontSize: 25, 
+    fontWeight: '700', 
+    marginBottom: 8, 
+    color: '#D81B60', 
+    fontFamily: 'serif', 
+    textAlign: 'center',
+    backgroundColor: 'rgba(244, 167, 197, 0.1)', 
+    paddingVertical: 10,
+    paddingHorizontal: 20,
+    borderRadius: 8,
+  },
+  section: {
+    marginBottom: 25, 
+  },
+  sectionTitle: {
+    fontSize: 18, 
+    fontFamily: 'serif',
+    fontWeight: '800', 
+    color: '#D81B60', 
+    marginBottom: 20, 
+    fontFamily: 'serif', 
+    backgroundColor: 'rgba(244, 167, 197, 0.1)', 
+    paddingVertical: 8,
+    paddingHorizontal: 15,
+    borderRadius: 6,
+  },
+  optionButton: {
+    marginBottom: 10, 
+    paddingVertical: 10, 
+    paddingHorizontal: 25,
+    marginHorizontal: 40,
+    backgroundColor: '#F06292', 
+    borderRadius: 12,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 3 },
+    shadowOpacity: 0.1,
+    shadowRadius: 6,
+    elevation: 5,
+  },
+  optionText: {
+    color: '#fff', 
+    fontSize: 15, 
+    fontWeight: '500', 
+    fontFamily: 'serif', 
+    textAlign: 'left',
+  },
+  logoutButton: {
+    marginTop: 0, 
+    paddingVertical: 10,
+    paddingHorizontal: 10,
+    backgroundColor: '#D32F2F', 
+    borderRadius: 12,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 3 },
+    shadowOpacity: 0.1,
+    shadowRadius: 6,
+    elevation: 5,
+    marginHorizontal: 10,
+  },
+  logoutText: {
+    color: '#fff',
+    fontWeight: 'bold',
+    fontSize: 18,
+    textAlign: 'center',
+    fontFamily: 'serif', 
+  },
+});
+
+export default styles;
